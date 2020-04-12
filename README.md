@@ -22,6 +22,36 @@ Run the application
 npm start
 ```
 
+## Explore the API 
+
+Get task list
+
+```bash
+curl --location --request GET 'http://localhost:8080/todo'
+```
+
+Create a task
+
+```bash
+curl --location --request POST 'http://localhost:8080/todo' \
+--data-urlencode 'name=dummy task' \
+--data-urlencode 'completed=false'
+```
+
+Update a task
+
+```bash
+curl --location --request PUT 'http://localhost:8080/todo/1' \
+--data-urlencode 'name=updated dummy task' \
+--data-urlencode 'completed=true'
+```
+
+Delete a task
+
+```bash
+curl --location --request DELETE 'http://localhost:8080/todo/1'
+```
+
 ## References
 
 * [Build a basic Rest API](https://medium.com/better-programming/use-express-to-build-a-rest-api-69bd4abb8e4a)
