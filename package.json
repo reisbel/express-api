@@ -1,0 +1,25 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rest API developed with Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reisbel/express-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reisbel/express-api/issues"
+  },
+  "homepage": "https://github.com/reisbel/express-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-localstorage": "^2.1.6"
+  }
+}
