@@ -1,4 +1,5 @@
 'use strict';
+const authorize = require('../authorize');
 
 const routes = (app) => {
     const todo = require('../controllers/Todo');
@@ -11,10 +12,10 @@ const routes = (app) => {
 
     // Todo Route
     app.route('/todo/:id?/')
-        .get(todo.get)
-        .post(todo.create)
-        .put(todo.update)
-        .delete(todo.delete);
+        .get(authorize(todo.get))
+        .post(authorize(todo.create))
+        .put(authorize(todo.update))
+        .delete(authorize(todo.delete));
 };
 
 module.exports = routes;
