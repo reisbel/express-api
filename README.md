@@ -52,6 +52,12 @@ Delete a task
 curl --location --request DELETE 'http://localhost:8080/todo/1'
 ```
 
+## Security
+
+* Authentication is the process of verifying who you are.
+* Authorization is the process of verifying what you have access to.
+
+
 ## References
 
 * [Build a basic Rest API](https://medium.com/better-programming/use-express-to-build-a-rest-api-69bd4abb8e4a)
