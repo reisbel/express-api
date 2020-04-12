@@ -71,7 +71,6 @@ curl --location --request DELETE 'http://localhost:8080/todo/1' \
 * [Build a basic Rest API](https://medium.com/better-programming/use-express-to-build-a-rest-api-69bd4abb8e4a)
 * [How to Secure Your API With JSON Web Tokens](https://medium.com/javascript-in-plain-english/how-to-secure-your-api-with-json-web-tokens-495ec68ba6cd)
 
-
 ## License
 
 MIT - See [LICENSE](LICENSE) for more information.
